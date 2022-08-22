@@ -1,0 +1,201 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
+.c-logo img{
+    height: 35px;
+}
+.c-logo span{
+    color: rgb(3, 109, 196);
+    font-weight: bold;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+nav a{
+    transition: 300ms;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+nav>div>ul>li>a:hover{
+    color: #183153;
+}
+nav>div>span>a:hover{
+    color: #183153;
+}
+.logout-button{
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+.logout-button:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.c-heading p{
+    width: 300px;
+    font-size: 110%;
+    margin: 30px 0px;
+}
+.c-heading button{
+    background-color: rgb(0, 136, 255);
+    padding: 10px 35px;
+    text-transform: uppercase;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.c-heading button:hover{
+    transition: 300ms;
+    background-color: #183153;
+}
+#more{
+    background-color: rgb(255, 251, 245);
+    padding: 40px;
+}
+.c-icon{
+    color: rgb(47, 92, 255);
+}
+#courses{
+    text-align: center;
+    background-color: rgb(248, 228, 202);
+}
+#courses div{  
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border-radius: 1%;
+    transition: 300ms;
+}
+#courses div:hover{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+#courses img{
+    width: 250px;
+    margin-bottom: 10px;
+}
+.c-gallery img{
+    width: 200px;
+    margin: 0px -3px;
+    transition: 400ms;
+}
+.c-gallery img:hover{
+    transform: scale(1.4);
+}
+#carousel{
+    background-color: #183153;
+}
+#carousel li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.carousel-item img{
+    width: 100%;
+}
+.carousel-inner button{
+    margin-bottom: 10px;
+    background-color: bisque;
+    padding: 8px 25px;
+
+}
+.carousel-inner button:hover, .form-inline button:hover{
+    background-color: burlywood;    
+}
+#team h2{
+    font-weight: bold;
+}
+.c-card{
+    text-align: center;
+    background-color: burlywood;
+    padding: 30px;
+    border-radius: 10%;
+}
+.c-card img{
+    width: 100%;
+    border-radius: 50%;
+}
+.c-card p{
+    margin-top: 10px;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background-color: #183153;
+    color: white;
+    padding-top: 30px;
+    margin-top: -7px;
+}
+#c-footer-logo{
+    text-decoration: none;
+    color: white;
+}
+footer h5{
+    font-weight: bold;
+}
+/* .loginbutton{
+	background-color: rgb(5, 230, 5);
+}
+.loginbutton:hover {
+    background-color: rgb(1, 164, 1);
+} */
+.form-inline button{
+    background-color: rgb(255, 210, 155);
+    padding: 0px 25px;
+}
+.form-inline button:hover{
+    background-color: rgb(255, 179, 86);
+}
+
+#c-social a{
+    color: white;
+    padding: 5px 8px;
+    transition: 300ms;
+}
+#c-social a:hover{
+    
+    text-decoration: none;
+    color: #54b5fe;
+}
+#c-top-button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#enquiries {
+	text-align: left;
+}
+
+#enquiries div {
+	background-color: rgb(225, 225, 225);
+	font-size: larger;
+	margin: 10px 0px;
+}
+
+
+
+
+/* .c-hide{
+    opacity: 0;
+    transition: 150ms;
+}
+.c-show{
+    transform: translateX(0);
+    opacity: 1;
+} */
